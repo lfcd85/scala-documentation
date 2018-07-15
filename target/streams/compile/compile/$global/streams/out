@@ -1,7 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/hamagoso/lfcd/scala/scala_introduction/5_class_compositions_with_mixins.scala:31:7: class StringIterator needs to be abstract, since method hasNext in class AbsIterator of type => Boolean is not defined[0m
-[0m[[0m[31merror[0m] [0m[0mclass StringIterator(s: String) extends AbsIterator {[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/hamagoso/lfcd/scala/scala_introduction/5_class_compositions_with_mixins.scala:47:9: class RichStringIter needs to be abstract, since method hasNext in class AbsIterator of type => Boolean is not defined[0m
-[0m[[0m[31merror[0m] [0m[0m  class RichStringIter extends StringIterator("Scala") with RichIterator[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
